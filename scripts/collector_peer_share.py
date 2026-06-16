@@ -12,8 +12,8 @@ Reproduce the collector-peer update-share figure using the processed
 collector_peer_daily_bins.parquet artifact file.
 """
 
-DATA = Path("/home/savymik/noisy-neighbors/data/collector_peer_daily_bins.parquet")
-OUT_FIG = Path("/home/savymik/noisy-neighbors/figures/collector_peers.png")
+DATA = Path("/noisy-neighbors/data/collector_peer_daily_bins.parquet")
+OUT_FIG = Path("/noisy-neighbors/figures/collector_peers.png")
 
 TOP_N = 11
 START_DATE, END_DATE = datetime(2012, 1, 1), datetime(2025, 1, 1)

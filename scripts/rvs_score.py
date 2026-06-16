@@ -12,8 +12,8 @@ Reproduce the MRT-file repetition-vs-prefix-count figure from the
 precomputed artifact CSV file.
 """
 
-DATA_FILE = Path("/home/ebrima/disk2/noisy-neighbors/data/rvs_results.gt10.pfxs.csv")
-OUT_FIG = Path("/home/ebrima/disk2/noisy-neighbors/figures/rvs_balanced_fixed_annotated.png")
+DATA_FILE = Path("/noisy-neighbors/data/rvs_results.gt10.pfxs.csv")
+OUT_FIG = Path("/noisy-neighbors/figures/rvs_balanced_fixed_annotated.png")
 OUT_FIG.parent.mkdir(parents=True, exist_ok=True)
 
 BIN_LABELS = ["≤100", "101–1K", "1K–10K", "10K–100K", "100K–1M", ">1M"]

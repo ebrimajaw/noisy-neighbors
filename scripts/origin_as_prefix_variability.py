@@ -8,8 +8,8 @@ Reproduce Figure 5a (December 2021) and Figure 5b (December 2024)
 from the precomputed origin-AS prefix-variability CSV files.
 """
 
-DATA_DIR = Path("/home/ebrima/disk2/noisy-neighbors/data/cache")
-FIG_DIR = Path("/home/ebrima/disk2/noisy-neighbors/figures")
+DATA_DIR = Path("/noisy-neighbors/data/cache")
+FIG_DIR = Path("/noisy-neighbors/figures")
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 
 INPUTS = {"2021": DATA_DIR / "origin_as_prefix_variability_2021.csv", "2024": DATA_DIR / "origin_as_prefix_variability_2024.csv"}

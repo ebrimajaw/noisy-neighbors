@@ -11,10 +11,10 @@ Reproduce the collector-level update-share figure using
 collector_peer_daily_bins.parquet.
 """
 
-DATA = Path("/home/savymik/noisy-neighbors/data/collector_peer_daily_bins.parquet")
-OUT_FIG = Path("/home/savymik/noisy-neighbors/figures/collector_share_plot.png")
-OUT_DATA = Path("/home/savymik/noisy-neighbors/data/monthly_aggregated_collector_updates.csv")
-OUT_TOP = Path("/home/savymik/noisy-neighbors/data/top_collectors_75percent.csv")
+DATA = Path("/noisy-neighbors/data/collector_peer_daily_bins.parquet")
+OUT_FIG = Path("/noisy-neighbors/figures/collector_share_plot.png")
+OUT_DATA = Path("/noisy-neighbors/data/monthly_aggregated_collector_updates.csv")
+OUT_TOP = Path("/noisy-neighbors/data/top_collectors_75percent.csv")
 
 TOP_N = 11
 START_X = pd.Timestamp("2011-11-01")

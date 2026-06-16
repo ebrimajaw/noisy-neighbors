@@ -19,8 +19,8 @@ noisy-neighbors/data/cache/prefix_vals.sorted.npy
     Reproduce the prefix cumulative update-share figure.
 """
 
-CACHE_DIR = Path("/home/ebrima/disk2/noisy-neighbors/data/cache")
-FIG_DIR = Path("/home/ebrima/disk2/noisy-neighbors/figures")
+CACHE_DIR = Path("/noisy-neighbors/data/cache")
+FIG_DIR = Path("/noisy-neighbors/figures")
 
 ASP_CACHE = CACHE_DIR / "asp_vals.sorted.npy"
 PREFIX_CACHE = CACHE_DIR / "prefix_vals.sorted.npy"

@@ -10,8 +10,8 @@ Reads precomputed ECDF files from:
     data/cache/top1pct_prefix_ecdf/
 """
 
-DATA_DIR = Path("/home/ebrima/disk2/noisy-neighbors/data/cache/top1pct_prefix_ecdf")
-OUT_FIG = Path("/home/ebrima/disk2/noisy-neighbors/figures/top1pct_prefix_ecdf.png")
+DATA_DIR = Path("/noisy-neighbors/data/cache/top1pct_prefix_ecdf")
+OUT_FIG = Path("/noisy-neighbors/figures/top1pct_prefix_ecdf.png")
 OUT_FIG.parent.mkdir(parents=True, exist_ok=True)
 
 grouped_ecdf = {}

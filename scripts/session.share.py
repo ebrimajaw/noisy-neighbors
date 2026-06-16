@@ -20,8 +20,8 @@ noisy-neighbors/data/cache/session_daily_update_share.parquet
     Used to reproduce the session-share figure.
 """
 
-CACHE_FILE = Path("/home/ebrima/disk2/noisy-neighbors/data/cache/session_daily_update_share.parquet")
-OUT_FIG = Path("/home/ebrima/disk2/noisy-neighbors/figures/session_share.png")
+CACHE_FILE = Path("/noisy-neighbors/data/cache/session_daily_update_share.parquet")
+OUT_FIG = Path("/noisy-neighbors/figures/session_share.png")
 OUT_FIG.parent.mkdir(parents=True, exist_ok=True)
 
 XLAB_FONTSIZE = 24

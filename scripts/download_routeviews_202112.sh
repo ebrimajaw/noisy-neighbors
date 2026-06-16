@@ -6,7 +6,7 @@ BASE_URL="https://archive.routeviews.org"
 MONTH="2021.12"
 START_DATE="2021-12-01"
 END_DATE="2021-12-31"
-OUTDIR="/home/ebrima/disk2/noisy-neighbors/data/raw/routeviews_202112"
+OUTDIR="/noisy-neighbors/data/raw/routeviews_202112"
 JOBS=8
 
 mkdir -p "$OUTDIR"
