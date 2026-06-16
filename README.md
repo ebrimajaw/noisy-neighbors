@@ -1,17 +1,14 @@
 # Noisy Neighbours: Keep the Neighbourhood Quiet
 
 This repository contains the artifacts accompanying the paper:
-**Noisy Neighbours: Keep the Neighbourhood Quiet**
-Ebrima Jaw, Thomas Krenc, Moritz Müller, Kc Claffy, Lambert Nieuwenhuis, and Cristian Hesselman.
-Published at the **21st International Conference on Network and Service Management (CNSM 2025)**.
+**Noisy Neighbours: Keep the Neighbourhood Quiet** published at the **21st International Conference on Network and Service Management (CNSM 2025)**.
 Paper: https://ieeexplore.ieee.org/document/11297542/
-DOI: https://doi.org/10.23919/CNSM67658.2025.11297542
 
 ---
 ## Overview
 
 This repository provides the processed datasets and plotting scripts used to reproduce the analyses and figures presented in the paper.
-The artifacts are derived from publicly available BGP update data collected by Route Views route collectors. 
+The artifacts are derived from publicly available Route Views BGP update files. 
 We only provided processed artifacts rather than the complete raw MRT archives due storage requirements, 
 Researchers interested in the full raw datasets, intermediate processing outputs, or additional artifacts can contact the authors.
 
@@ -84,6 +81,7 @@ Used to reproduce the AS-path update concentration analysis.
 Sorted update-count vector for all observed prefixes.
 Each element represents the total number of updates associated with a unique prefix.
 Computed from all observed announcements in Route Views update files.
+
 Used to reproduce the prefix update concentration analysis.
 
 ---
@@ -119,7 +117,6 @@ Used to reproduce the December 2024 variability analysis.
 
 ### cache/top1pct_prefix_ecdf/
 Precomputed ECDF datasets used to reproduce the top-1% noisy-prefix collector comparison.
-
 Files:
 * `ecdf_update_counts_rvs*.csv`
 * `ecdf_update_counts_rest.csv`
