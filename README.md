@@ -118,24 +118,16 @@ Used to reproduce the December 2024 variability analysis.
 ---
 
 ### cache/top1pct_prefix_ecdf/
-Precomputed ECDF datasets used to reproduce the noisy-prefix comparison across Route Views collectors
-The datasets correspond to the top 1% noisiest prefixes identified from the Perth collector and subsequently evaluated across multiple collectors.
+Precomputed ECDF datasets used to reproduce the top-1% noisy-prefix collector comparison.
 
 Files:
-* `ecdf_update_counts_rvs3.csv`
-* `ecdf_update_counts_rvs4.csv`
-* `ecdf_update_counts_rvs_amsix.csv`
-* `ecdf_update_counts_rvs_eqix.csv`
-* `ecdf_update_counts_rvs_linx.csv`
-* `ecdf_update_counts_rvs_napafrica.csv`
-* `ecdf_update_counts_rvs_perth.csv`
-* `ecdf_update_counts_rvs_saopaulo2.csv`
-* `ecdf_update_counts_rvs_sg.csv`
+* `ecdf_update_counts_rvs*.csv`
 * `ecdf_update_counts_rest.csv`
+
 Columns:
 
-* `update_count` — aggregated update count for a prefix–collector pair.
-* `ecdf` — empirical cumulative distribution value.
+* `update_count`
+* `ecdf`
 
 These files are used to reproduce the collector comparison analysis presented in Figure 6.
 
