@@ -30,8 +30,8 @@ scripts/
 ├── collector_share.py
 ├── pfx.aspath_update_sahre.py
 ├── session_share.py
-├── noisy_prefixes_py
-├── rvs_score_py
+├── noisy_prefixes.py
+├── rvs_score.py
 ├── origin_as_prefix_variability.py
 └── download_routeviews_202112.sh
 figures/
