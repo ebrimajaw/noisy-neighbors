@@ -164,13 +164,13 @@ Researchers interested in the complete raw MRT files or additional processing ou
 ## Citation
 If you use these artifacts, please cite:
 ```bibtex
-@inproceedings{jaw_noisy_2025,
+@inproceedings{noisy_neighbors_2025,
     title = {Noisy Neighbours: Keep the Neighbourhood Quiet},
     url = {https://ieeexplore.ieee.org/document/11297542/},
     doi = {10.23919/CNSM67658.2025.11297542},
     shorttitle = {Noisy Neighbours},
     eventtitle = {2025 21st International Conference on Network and Service Management (CNSM)},
-    pages = {1--9},
+    pages = {1-9},
     booktitle = {2025 21st International Conference on Network and Service Management (CNSM)},
     author = {Jaw, Ebrima and Krenc, Thomas and Müller, Moritz and Claffy, Kc and Nieuwenhuis, Lambert and Hesselman, Cristian},
     date = {2025-10}
